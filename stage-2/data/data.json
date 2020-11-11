@@ -1,0 +1,144 @@
+{
+    "orders": [{
+            "Company": "Amazon",
+            "OrderNum": 11351096124836215,
+            "totalSpending": 49.53,
+            "itemNames": ["Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"],
+            "itemPictures": ["amazonitem1.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 3
+        },
+
+        {
+            "Company": "Asos",
+            "OrderNum": 446523012,
+            "totalSpending": 202.39,
+            "itemNames": ["Air Max 270 React Womens-Shoe", "Birkinstocks Womens"],
+            "itemPictures": ["asosorder1.png", "asosorder2.png"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 1
+        },
+
+        {
+            "Company": "Amazon",
+            "OrderNum": 10421096124836215,
+            "totalSpending": 129.53,
+            "itemNames": ["Kindle Paperwhite"],
+            "itemPictures": ["amazonitem2.jpg"],
+            "orderDate": "2012-04-30T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 2
+        },
+
+        {
+            "Company": "Chegg",
+            "OrderNum": 113522,
+            "totalSpending": 90.01,
+            "itemNames": ["Building Java Programs: A Back to Basics Approach, 5th edition"],
+            "itemPictures": ["cheggitem1.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 2
+        },
+
+        {
+            "Company": "Target",
+            "OrderNum": 11351096124836215,
+            "totalSpending": 4.23,
+            "itemNames": ["Q-Tips Cotton Swabs - 500ct"],
+            "itemPictures": ["targetitem2.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 2
+        },
+
+        {
+            "Company": "Asos",
+            "OrderNum": 446523012,
+            "totalSpending": 202.39,
+            "itemNames": ["Air Max 270 React Womens-Shoe", "Birkinstocks Womens"],
+            "itemPictures": ["asosorder1.png", "asosorder2.png"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 1
+        },
+
+        {
+            "Company": "Amazon",
+            "OrderNum": 10421096124836215,
+            "totalSpending": 129.53,
+            "itemNames": ["Kindle Paperwhite"],
+            "itemPictures": ["amazonitem2.jpg"],
+            "orderDate": "2012-04-30T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 3
+        },
+
+        {
+            "Company": "Chegg",
+            "OrderNum": 113522,
+            "totalSpending": 90.01,
+            "itemNames": ["Building Java Programs: A Back to Basics Approach, 5th edition"],
+            "itemPictures": ["cheggitem1.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 3
+        },
+
+        {
+            "Company": "Target",
+            "OrderNum": 11351096124836215,
+            "totalSpending": 4.23,
+            "itemNames": ["Q-Tips Cotton Swabs - 500ct"],
+            "itemPictures": ["targetitem2.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 3
+        },
+        {
+            "Company": "Asos",
+            "OrderNum": 446523012,
+            "totalSpending": 202.39,
+            "itemNames": ["Air Max 270 React Womens-Shoe", "Birkinstocks Womens"],
+            "itemPictures": ["asosorder1.png", "asosorder2.png"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 1
+        },
+
+        {
+            "Company": "Amazon",
+            "OrderNum": 10421096124836215,
+            "totalSpending": 129.53,
+            "itemNames": ["Kindle Paperwhite"],
+            "itemPictures": ["amazonitem2.jpg"],
+            "orderDate": "2012-04-30T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 1
+        },
+
+        {
+            "Company": "Chegg",
+            "OrderNum": 113522,
+            "totalSpending": 90.01,
+            "itemNames": ["Building Java Programs: A Back to Basics Approach, 5th edition"],
+            "itemPictures": ["cheggitem1.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 1
+        },
+
+        {
+            "Company": "Target",
+            "OrderNum": 11351096124836215,
+            "totalSpending": 4.23,
+            "itemNames": ["Q-Tips Cotton Swabs - 500ct"],
+            "itemPictures": ["targetitem2.jpg"],
+            "orderDate": "2012-04-23T18:25:43.511Z",
+            "shippingDate": null,
+            "orderStatus": 1
+        }
+    ]
+}

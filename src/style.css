@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+main,
+body,
+div#root,
+div.maxHeight,
+.flex-container,
+.package-container {
+    height: 100%;
+}
+
+body.noScroll {
+    /* ...or body.dialogShowing */
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.flex-item {
+    flex: 1 1 auto;
+}
+
+nav {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.nav-item {
+    flex: 0 0 auto;
+}
+
+div.nav-item h1 {
+    font-size: 30px;
+    color: white;
+    float: left;
+}
+
+div.nav-item:nth-of-type(1) {
+    flex-basis:100%;
+}
+
+
+div.nav-item:nth-of-type(2) {
+    display: none;
+}
+
+div.nav-item input,
+div.nav-item button {
+    float: right;
+}
+
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+
+ul#topnav {
+    display: none;
+}
+
+nav ul {
+    text-align: left;
+    padding: 0;
+    margin: auto;
+    display: none;
+}
+
+nav a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    padding: 6px 6px;
+    margin: 2px 2px;
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-a{
+    background-color: transparent;
+    border-style: none;
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    width: 75%;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 14px;
+    border: 20px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkred;
+    color: white;
+}
+
+ul#hamburgerLinks {
+    display: none;
+    background-color: #1b1f22;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#hamburgerLinks li a {
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+ul#hamburgerLinks li a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: lightslategray;
+}
+
+button#hamburger-menu {
+    float: right;
+    border: none;
+    background-color: transparent;
+    padding: 0%;
+    text-align: right;
+    height: fit-content;
+    width: fit-content;
+}
+
+.card-container {
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    max-width: 203.81px;
+    min-width: 203.81px;
+    max-height: 86px;
+    min-height: 86px;
+}
+
+
+.card-container:hover {
+    background-color: #ccccf3;
+}
+
+.card-container:active {
+    background-color: #ccccf3
+}
+
+.card-item {
+    flex: 1 1 auto;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.hamburgerLinks {
+    display: none;
+}
+
+.card-item img {
+    max-width: 75px;
+    max-height: 75px;
+}
+
+button.collapsible {
+    background-color: transparent;
+    border-style: none;
+    margin: 1rem;
+    padding: 0;
+    margin-bottom: 0;
+    outline-color: transparent;
+}
+
+.package-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    background-color: lavender;
+    margin: auto;
+    overflow: auto;
+    justify-content: center;
+}
+
+.package-item {
+    flex: 1 1 auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    font-size: 11px;
+}
+
+.content p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.card-item p,
+div.card-item h2 {
+    font-size: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+div.none {
+    display: none;
+}
+div.content {
+    display:block;
+    overflow: hidden;
+    background-color: lightgray;
+    margin: 1rem;
+    margin-top: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+    max-width: 203.81px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 0 0 10px 0;
+}
+
+#photo-cred {
+    display: none;
+}
+
+div .welcome{
+    background-color: lavender;
+    background-image: url('./img/mountains.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.welContent {
+    text-align: center;
+    padding: 23vh;
+    color: white;
+}
+
+.welContent p {
+    font-size: 36px;
+}
+
+.welContent h2 {
+    font-size: 72px;
+}
+
+.About{
+    background-color: lavender;
+    height: 100%;
+}
+
+.a-content {
+    text-align: center;
+    padding: 23vh;
+    color:  #1b1f22;
+}
+
+.a-content p {
+    font-size: 24px;
+    padding: 0;
+}
+
+.a-content img {
+    max-width: 250px;
+    max-height: 250px;
+
+}
+
+.a-content h2 {
+    font-size: 72px;
+}
+
+
+footer {
+    background-color: #343a40;
+    margin: 0;
+}
+
+@media (min-width: 900px) {
+    div.nav-item h1 {
+        font-size: 30px;
+        color: white;
+        float: left;
+        display:block;
+    }
+    .nav-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    
+    div.nav-item:nth-of-type(1) {
+        flex-basis:30%;
+    }
+    nav ul#topnav {
+        display: unset;
+    }
+
+    div.nav-item:nth-of-type(2) {
+        display: unset;
+    }
+
+    button#hamburger-menu {
+        display: none;
+    }
+
+    .package-item {
+        flex: 0 1 auto;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .package-container {
+        background-image: url('./img/dog.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #photo-cred {
+        display: block;
+    }
+}
