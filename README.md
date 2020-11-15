@@ -6,5 +6,5 @@ The users of this application will be people who frequently make online orders a
 Because the concept of our App would require a lot of backend work to connect with the gmail api we used a external json file to help represent how package data would appear in our app.# PackageTracker
 
 Link to app below:
-/n
+<br>
 https://package-tracker-2b88f.firebaseapp.com/
